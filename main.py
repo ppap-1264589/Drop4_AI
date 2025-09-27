@@ -1,8 +1,8 @@
-from connect_four.game import ConnectFour
+from Drop4.game import ConnectFour
 
 def play_game():
-    # Code play_game
-    pass
+    game = ConnectFour()
+    game.play()
 
 if __name__ == "__main__":
     play_game()
