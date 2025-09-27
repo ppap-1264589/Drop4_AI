@@ -1,55 +1,53 @@
 class Board:
-    def __init__(self):
-        self.rows = 6
-        self.cols = 7
-        self.board = [[' ' for _ in range(self.cols)] for _ in range(self.rows)]
+    def __init__(self, rows, cols):
+        self.rows = rows
+        self.cols = cols
+        self.grid = [[' ' for i in range(cols)] for j in range(rows)]
 
-    def print_board(self):
-        for row in self.board:
-            print('|' + '|'.join(row) + '|')
-        print(' ' + ' '.join(str(i) for i in range(self.cols)))
 
-    def is_valid_move(self, col):
-        return 0 <= col < self.cols and self.board[0][col] == ' '
-
-    def make_move(self, col, player):
-        for row in range(self.rows - 1, -1, -1):
-            if self.board[row][col] == ' ':
-                self.board[row][col] = player
-                return True
-        return False
-
-    def undo_move(self, col):
-        for row in range(self.rows):
-            if self.board[row][col] != ' ':
-                self.board[row][col] = ' '
-                return
-
-    def check_win(self, player):
+    # Cần sửa đổi hàm check_win này cho tối ưu hơn thông qua hai biến r c,
+    # hai biến đại diện cho vị trí vừa mới thả token
+    def check_win(self, token, r, c):
         # Ngang
         for row in range(self.rows):
             for col in range(self.cols - 3):
-                if all(self.board[row][col + i] == player for i in range(4)):
+                if all(self.grid[row][col + i] == token for i in range(4)):
                     return True
         # Dọc
         for col in range(self.cols):
             for row in range(self.rows - 3):
-                if all(self.board[row + i][col] == player for i in range(4)):
+                if all(self.grid[row + i][col] == token for i in range(4)):
                     return True
         # Chéo lên
         for row in range(3, self.rows):
             for col in range(self.cols - 3):
-                if all(self.board[row - i][col + i] == player for i in range(4)):
+                if all(self.grid[row - i][col + i] == token for i in range(4)):
                     return True
         # Chéo xuống
         for row in range(self.rows - 3):
             for col in range(self.cols - 3):
-                if all(self.board[row + i][col + i] == player for i in range(4)):
+                if all(self.grid[row + i][col + i] == token for i in range(4)):
                     return True
         return False
 
-    def is_full(self):
-        return all(self.board[0][col] != ' ' for col in range(self.cols))
+
+
+
+    def print_board(self):
+        for row in self.grid:
+            print("| " + " | ".join(row) + " |")
+
+    def is_valid_move(self, col):
+        return 0 <= col < self.cols and self.grid[0][col] == ' '
 
     def get_valid_moves(self):
         return [col for col in range(self.cols) if self.is_valid_move(col)]
+    
+    def is_full(self):
+        return all(self.grid[0][col] != ' ' for col in range(self.cols))
+    
+    def undo_move(self, col):
+        for row in range(self.rows):
+            if self.grid[row][col] != ' ':
+                self.grid[row][col] = ' '
+                return
