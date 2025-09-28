@@ -84,6 +84,9 @@ class Computer:
         self.trans_table[board_hash] = (depth, score)
         return score
     ### LOGIC CHÍNH CỦA THUẬT TOÁN MINIMAX. CẦN CÓ THÊM LỜI GIẢI THÍCH    
+    ### Tại sao minimax đúng? Nó hoạt động thế nào
+    ### Tại sao cắt tỉa alpha-beta làm thuật toán chạy nhanh hơn
+    ### trans_table cập nhật thế nào?
 
 
 
