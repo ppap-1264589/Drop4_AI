@@ -4,34 +4,33 @@ class Board:
         self.cols = cols
         self.grid = [[' ' for i in range(cols)] for j in range(rows)]
 
-
-    # Cần sửa đổi hàm check_win này cho tối ưu hơn thông qua hai biến r c,
-    # hai biến đại diện cho vị trí vừa mới thả token
     def check_win(self, token, r, c):
-        # Ngang
-        for row in range(self.rows):
-            for col in range(self.cols - 3):
-                if all(self.grid[row][col + i] == token for i in range(4)):
-                    return True
-        # Dọc
-        for col in range(self.cols):
-            for row in range(self.rows - 3):
-                if all(self.grid[row + i][col] == token for i in range(4)):
-                    return True
-        # Chéo lên
-        for row in range(3, self.rows):
-            for col in range(self.cols - 3):
-                if all(self.grid[row - i][col + i] == token for i in range(4)):
-                    return True
-        # Chéo xuống
-        for row in range(self.rows - 3):
-            for col in range(self.cols - 3):
-                if all(self.grid[row + i][col + i] == token for i in range(4)):
-                    return True
+        # Chỉ kiểm tra 4 hướng từ vị trí (r, c)
+        directions = [
+            (0, 1),   # Ngang (phải)
+            (1, 0),   # Dọc (xuống)
+            (1, 1),   # Chéo xuống-phải
+            (1, -1)   # Chéo xuống-trái
+        ]
+        for dr, dc in directions:
+            count = 1  # Bắt đầu từ token tại (r, c)
+            # Đếm về phía trước
+            for i in range(1, 4):
+                nr, nc = r + i * dr, c + i * dc
+                if 0 <= nr < self.rows and 0 <= nc < self.cols and self.grid[nr][nc] == token:
+                    count += 1
+                else:
+                    break
+            # Đếm về phía ngược
+            for i in range(1, 4):
+                nr, nc = r - i * dr, c - i * dc
+                if 0 <= nr < self.rows and 0 <= nc < self.cols and self.grid[nr][nc] == token:
+                    count += 1
+                else:
+                    break
+            if count >= 4:
+                return True
         return False
-
-
-
 
     def print_board(self):
         for row in self.grid:
@@ -45,6 +44,13 @@ class Board:
     
     def is_full(self):
         return all(self.grid[0][col] != ' ' for col in range(self.cols))
+    
+    def drop_move(self, col, token):
+        for r in range(self.rows - 1, -1, -1):
+            if self.grid[r][col] == ' ':
+                self.grid[r][col] = token
+                return r
+        return -1  # Invalid if full
     
     def undo_move(self, col):
         for row in range(self.rows):
