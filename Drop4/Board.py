@@ -3,7 +3,7 @@ class Board:
         self.rows = rows
         self.cols = cols
         self.grid = [[' ' for i in range(cols)] for j in range(rows)]
-        self.bottom = [rows-1 for i in range(cols)]
+        self.top = [rows-1 for i in range(cols)]
         self.remain = rows*cols
 
     def check_win(self, token, r, c):
@@ -54,21 +54,32 @@ class Board:
         return 0 <= col < self.cols and self.grid[0][col] == ' '
 
     def get_valid_moves(self):
-        return [col for col in range(self.cols) if self.is_valid_move(col)]
-    
+        moves = [col for col in range(self.cols) if self.is_valid_move(col)]
+        center = self.cols // 2
+        return sorted(moves, key=lambda x: abs(x - center))
+        # return [col for col in range(self.cols) if self.is_valid_move(col)]
+        # Tại đây, thử nghiệm việc ưu tiên đánh vị trí chính giữa trước
+
+
+
+
     def is_full(self):
         return self.remain == 0
     
     def drop_move(self, col, token):
-        row = self.bottom[col]
-        self.bottom[col] -= 1
+        if not self.is_valid_move(col):
+            return -1
+        row = self.top[col]
+        self.top[col] -= 1
         self.grid[row][col] = token
         self.remain -= 1
         return row
     
     def undo_move(self, col):
-        self.bottom[col] += 1
-        row = self.bottom[col]
+        if (self.top[col] >= self.rows-1): return
+        self.top[col] += 1
+        row = self.top[col]
         self.grid[row][col] = ' '
         self.remain += 1
-        return
+    
+    

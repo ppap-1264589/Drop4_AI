@@ -3,7 +3,7 @@ from Drop4.Game import Game
 if __name__ == "__main__":
     rows = 6
     cols = 7
-    depth_search = 9
+    depth_search = 5
     player_first = False
     player_mark = 'X'
     computer_mark = 'O'
