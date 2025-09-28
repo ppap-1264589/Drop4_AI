@@ -3,8 +3,17 @@ class Board:
         self.rows = rows
         self.cols = cols
         self.grid = [[' ' for i in range(cols)] for j in range(rows)]
+        self.bottom = [rows-1 for i in range(cols)]
+        self.remain = rows*cols
 
     def check_win(self, token, r, c):
+        if self.grid[r][c] != token:
+            return False
+        # Trước hết, phải kiểm tra xem ô (r, c) có đúng là token hiện tại không
+        # Nếu đúng thì hẵng tính là 1
+
+
+
         # Chỉ kiểm tra 4 hướng từ vị trí (r, c)
         directions = [
             (0, 1),   # Ngang (phải)
@@ -19,22 +28,27 @@ class Board:
                 nr, nc = r + i * dr, c + i * dc
                 if 0 <= nr < self.rows and 0 <= nc < self.cols and self.grid[nr][nc] == token:
                     count += 1
-                else:
-                    break
+                else: break
+
             # Đếm về phía ngược
             for i in range(1, 4):
                 nr, nc = r - i * dr, c - i * dc
                 if 0 <= nr < self.rows and 0 <= nc < self.cols and self.grid[nr][nc] == token:
                     count += 1
-                else:
-                    break
-            if count >= 4:
+                else: break
+
+            if count >= 4: 
                 return True
         return False
 
     def print_board(self):
+        # In hàng số cột (1-based)
+        col_names = [str(i) for i in range(1, self.cols + 1)]
+        print("| " + " | ".join(col_names) + " |")
+        # In lưới
         for row in self.grid:
             print("| " + " | ".join(row) + " |")
+
 
     def is_valid_move(self, col):
         return 0 <= col < self.cols and self.grid[0][col] == ' '
@@ -43,17 +57,18 @@ class Board:
         return [col for col in range(self.cols) if self.is_valid_move(col)]
     
     def is_full(self):
-        return all(self.grid[0][col] != ' ' for col in range(self.cols))
+        return self.remain == 0
     
     def drop_move(self, col, token):
-        for r in range(self.rows - 1, -1, -1):
-            if self.grid[r][col] == ' ':
-                self.grid[r][col] = token
-                return r
-        return -1  # Invalid if full
+        row = self.bottom[col]
+        self.bottom[col] -= 1
+        self.grid[row][col] = token
+        self.remain -= 1
+        return row
     
     def undo_move(self, col):
-        for row in range(self.rows):
-            if self.grid[row][col] != ' ':
-                self.grid[row][col] = ' '
-                return
+        self.bottom[col] += 1
+        row = self.bottom[col]
+        self.grid[row][col] = ' '
+        self.remain += 1
+        return
