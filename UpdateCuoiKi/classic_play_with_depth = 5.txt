@@ -1,0 +1,551 @@
+--- TRÒ CHƠI DROP 4 ---
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 4
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   | X |   |   |   |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0408 giây
+Số trạng thái máy đã thăm:      1573
+Số lần gặp bộ nhớ đệm:          36
+Số lần cắt tỉa alpha-beta:      242
+Tỉ lệ cache hit:                2.29%
+Tỉ lệ pruning:                  15.38%
+Máy chọn cột: 1
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   |   | X |   |   |   |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 7
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   |   | X |   |   | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0470 giây
+Số trạng thái máy đã thăm:      1384
+Số lần gặp bộ nhớ đệm:          24
+Số lần cắt tỉa alpha-beta:      223
+Tỉ lệ cache hit:                1.73%
+Tỉ lệ pruning:                  16.11%
+Máy chọn cột: 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   | O | X |   |   | X |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 6
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   | O | X |   | X | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0702 giây
+Số trạng thái máy đã thăm:      2090
+Số lần gặp bộ nhớ đệm:          105
+Số lần cắt tỉa alpha-beta:      410
+Tỉ lệ cache hit:                5.02%
+Tỉ lệ pruning:                  19.62%
+Máy chọn cột: 5
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   | O | X | O | X | X |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 5
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   | X |   |   |
+| O |   | O | X | O | X | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0876 giây
+Số trạng thái máy đã thăm:      2157
+Số lần gặp bộ nhớ đệm:          75
+Số lần cắt tỉa alpha-beta:      336
+Tỉ lệ cache hit:                3.48%
+Tỉ lệ pruning:                  15.58%
+Máy chọn cột: 1
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   |   |   | X |   |   |
+| O |   | O | X | O | X | X |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 1
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| O |   |   |   | X |   |   |
+| O |   | O | X | O | X | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0878 giây
+Số trạng thái máy đã thăm:      2234
+Số lần gặp bộ nhớ đệm:          69
+Số lần cắt tỉa alpha-beta:      323
+Tỉ lệ cache hit:                3.09%
+Tỉ lệ pruning:                  14.46%
+Máy chọn cột: 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| O |   | O |   | X |   |   |
+| O |   | O | X | O | X | X |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   |   |   |   |   |   |
+| O |   | O |   | X |   |   |
+| O | X | O | X | O | X | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0750 giây
+Số trạng thái máy đã thăm:      1587
+Số lần gặp bộ nhớ đệm:          40
+Số lần cắt tỉa alpha-beta:      216
+Tỉ lệ cache hit:                2.52%
+Tỉ lệ pruning:                  13.61%
+Máy chọn cột: 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| X |   | O |   |   |   |   |
+| O |   | O |   | X |   |   |
+| O | X | O | X | O | X | X |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |
+| X |   | O |   |   |   |   |
+| O |   | O |   | X |   |   |
+| O | X | O | X | O | X | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0918 giây
+Số trạng thái máy đã thăm:      1832
+Số lần gặp bộ nhớ đệm:          57
+Số lần cắt tỉa alpha-beta:      252
+Tỉ lệ cache hit:                3.11%
+Tỉ lệ pruning:                  13.76%
+Máy chọn cột: 2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |
+| X |   | O |   |   |   |   |
+| O | O | O |   | X |   |   |
+| O | X | O | X | O | X | X |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |
+| X | X | O |   |   |   |   |
+| O | O | O |   | X |   |   |
+| O | X | O | X | O | X | X |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0774 giây
+Số trạng thái máy đã thăm:      1263
+Số lần gặp bộ nhớ đệm:          33
+Số lần cắt tỉa alpha-beta:      177
+Tỉ lệ cache hit:                2.61%
+Tỉ lệ pruning:                  14.01%
+Máy chọn cột: 4
+
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |
+| X | X | O |   |   |   |   |
+| O | O | O | O | X |   |   |
+| O | X | O | X | O | X | X |
+-----------------------------
+MÁY THẮNG! HÃY THỬ LẠI LẦN SAU.
+Tổng số nước máy đã đi:         8
+Tổng thời gian máy đã nghĩ:     0.5774955749511719
+Tổng trạng thái máy đã thăm:    14120
+Tổng số lần gặp bộ nhớ đệm:     439
+Tổng số lần cắt tỉa alpha-beta: 2179
+Thời gian nghĩ trung bình:      0.0722
+Tỉ lệ cache hit trung bình:     3.11%
+Tỉ lệ pruning trung bình:       15.43%
+PS C:\Users\MyPC\Desktop\CodeVS\Drop4_AI2> & C:/Python314/python.exe c:/Users/MyPC/Desktop/CodeVS/Drop4_AI2/main.py
+--- TRÒ CHƠI DROP 4 ---
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 4
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   | X |   |   |   |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0405 giây
+Số trạng thái máy đã thăm:      1596
+Số lần gặp bộ nhớ đệm:          36
+Số lần cắt tỉa alpha-beta:      200
+Tỉ lệ cache hit:                2.26%
+Tỉ lệ pruning:                  12.53%
+Máy chọn cột: 1
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   |   | X |   |   |   |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 5
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   |   | X | X |   |   |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.1100 giây
+Số trạng thái máy đã thăm:      1726
+Số lần gặp bộ nhớ đệm:          41
+Số lần cắt tỉa alpha-beta:      316
+Tỉ lệ cache hit:                2.38%
+Tỉ lệ pruning:                  18.31%
+Máy chọn cột: 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   | O | X | X |   |   |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 6
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   | O | X | X | X |   |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0642 giây
+Số trạng thái máy đã thăm:      1984
+Số lần gặp bộ nhớ đệm:          96
+Số lần cắt tỉa alpha-beta:      433
+Tỉ lệ cache hit:                4.84%
+Tỉ lệ pruning:                  21.82%
+Máy chọn cột: 7
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 4
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   | X |   |   |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0966 giây
+Số trạng thái máy đã thăm:      2233
+Số lần gặp bộ nhớ đệm:          86
+Số lần cắt tỉa alpha-beta:      404
+Tỉ lệ cache hit:                3.85%
+Tỉ lệ pruning:                  18.09%
+Máy chọn cột: 4
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   | O |   |   |   |
+|   |   |   | X |   |   |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 5
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   | O |   |   |   |
+|   |   |   | X | X |   |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0922 giây
+Số trạng thái máy đã thăm:      2075
+Số lần gặp bộ nhớ đệm:          69
+Số lần cắt tỉa alpha-beta:      370
+Tỉ lệ cache hit:                3.33%
+Tỉ lệ pruning:                  17.83%
+Máy chọn cột: 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   | O |   |   |   |
+|   |   | O | X | X |   |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X | O |   |   |   |
+|   |   | O | X | X |   |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.1189 giây
+Số trạng thái máy đã thăm:      2500
+Số lần gặp bộ nhớ đệm:          120
+Số lần cắt tỉa alpha-beta:      464
+Tỉ lệ cache hit:                4.80%
+Tỉ lệ pruning:                  18.56%
+Máy chọn cột: 6
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X | O |   |   |   |
+|   |   | O | X | X | O |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 5
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   | X | O | X |   |   |
+|   |   | O | X | X | O |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0774 giây
+Số trạng thái máy đã thăm:      1398
+Số lần gặp bộ nhớ đệm:          27
+Số lần cắt tỉa alpha-beta:      251
+Tỉ lệ cache hit:                1.93%
+Tỉ lệ pruning:                  17.95%
+Máy chọn cột: 5
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   | O |   |   |
+|   |   | X | O | X |   |   |
+|   |   | O | X | X | O |   |
+| O |   | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   | O |   |   |
+|   |   | X | O | X |   |   |
+|   |   | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.1408 giây
+Số trạng thái máy đã thăm:      2378
+Số lần gặp bộ nhớ đệm:          93
+Số lần cắt tỉa alpha-beta:      343
+Tỉ lệ cache hit:                3.91%
+Tỉ lệ pruning:                  14.42%
+Máy chọn cột: 6
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   | O |   |   |
+|   |   | X | O | X | O |   |
+|   |   | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   | O |   |   |
+|   |   | X | O | X | O |   |
+|   | X | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.1023 giây
+Số trạng thái máy đã thăm:      1570
+Số lần gặp bộ nhớ đệm:          42
+Số lần cắt tỉa alpha-beta:      258
+Tỉ lệ cache hit:                2.68%
+Tỉ lệ pruning:                  16.43%
+Máy chọn cột: 6
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |
+|   |   |   |   | O | O |   |
+|   |   | X | O | X | O |   |
+|   | X | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 6
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   | X |   |
+|   |   |   |   | O | O |   |
+|   |   | X | O | X | O |   |
+|   | X | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.1363 giây
+Số trạng thái máy đã thăm:      2038
+Số lần gặp bộ nhớ đệm:          89
+Số lần cắt tỉa alpha-beta:      366
+Tỉ lệ cache hit:                4.37%
+Tỉ lệ pruning:                  17.96%
+Máy chọn cột: 4
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   | X |   |
+|   |   |   | O | O | O |   |
+|   |   | X | O | X | O |   |
+|   | X | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Lượt bạn (X), chọn cột (1-7): 2
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   | X |   |
+|   |   |   | O | O | O |   |
+|   | X | X | O | X | O |   |
+|   | X | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+Máy (O) đang suy nghĩ...
+Máy suy nghĩ trong:             0.0189 giây
+Số trạng thái máy đã thăm:      272
+Số lần gặp bộ nhớ đệm:          6
+Số lần cắt tỉa alpha-beta:      59
+Tỉ lệ cache hit:                2.21%
+Tỉ lệ pruning:                  21.69%
+Máy chọn cột: 3
+
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|   |   |   |   |   |   |   |
+|   |   |   |   |   | X |   |
+|   |   | O | O | O | O |   |
+|   | X | X | O | X | O |   |
+|   | X | O | X | X | O |   |
+| O | X | O | X | X | X | O |
+-----------------------------
+MÁY THẮNG! HÃY THỬ LẠI LẦN SAU.
+Tổng số nước máy đã đi:         11
+Tổng thời gian máy đã nghĩ:     0.998162031173706
+Tổng trạng thái máy đã thăm:    19770
+Tổng số lần gặp bộ nhớ đệm:     705
+Tổng số lần cắt tỉa alpha-beta: 3464
+Thời gian nghĩ trung bình:      0.0907
+Tỉ lệ cache hit trung bình:     3.57%
+Tỉ lệ pruning trung bình:       17.52%
